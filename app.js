@@ -11,7 +11,7 @@ const app = express();
 const PORT = 6100;
 
 const server = app.listen(PORT, () => {
-  console.log(`${PORT}번 포트 열림`);
+  console.log(`${PORT}번 포트 열림dd`);
 });
 const io = socketio(server);
 
@@ -20,7 +20,7 @@ io.on("connection", (socket) => {
 });
 
 const options = {
-  origin: "http://52.79.114.100",
+  origin: "http://43.201.35.124",
   credentials: true,
 };
 
