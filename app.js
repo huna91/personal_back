@@ -20,7 +20,7 @@ io.on("connection", (socket) => {
 });
 
 const options = {
-  origin: "http://43.201.35.124",
+  origin: "http://13.124.138.197",
   credentials: true,
 };
 
